@@ -13,5 +13,16 @@ namespace COMP2007_Lesson3
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //replace this code with email processing code
+            Response.Redirect("Default.aspx");
+        }
     }
 }
